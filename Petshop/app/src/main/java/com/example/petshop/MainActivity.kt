@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
         // val pet = Pet("Rocky", 3)
         val cat = Cat("Rocky", 3)
         val dog = Dog("Bobby", 2)
-        val pets = mutableListOf(cat, dog)
+        val pets = mutableListOf<Pet>(cat, dog)
 
         val scorpion = Scorpion("Viper", 20)
 
